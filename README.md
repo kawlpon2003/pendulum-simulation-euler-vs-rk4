@@ -64,6 +64,10 @@ RK4 produces smoother motion and more accurate energy behavior compared to Euler
 ### RK4 Method
 ![RK4 Simulation](pendulum_rk4.gif)
 
+### 📊 Euler vs RK4 Comparison
+
+![Comparison](comparison.png)
+
 ---
 
 ## 📊 Results & Observations
