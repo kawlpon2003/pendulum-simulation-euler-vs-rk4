@@ -15,7 +15,8 @@ This project simulates the motion of a **damped pendulum** using numerical metho
 - 🎥 Real-time pendulum animation  
 - ⚡ Kinetic Energy (KE), Potential Energy (PE), and Total Energy plots  
 - 🌫️ Damping effect (energy loss over time)  
-- 📐 Non-linear system (no small-angle approximation)  
+- 📐 Non-linear system (no small-angle approximation)
+- 🔬 Multiple numerical methods (Euler & RK4)
 
 ---
 
@@ -27,9 +28,38 @@ The system follows the differential equation:
 
 ---
 
+## 🔬 Numerical Methods
+
+This project implements two methods:
+
+### Euler Method
+- Simple and easy to implement  
+- Less accurate for non-linear systems  
+
+### Runge-Kutta 4th Order (RK4)
+- Higher accuracy and stability  
+- Better for solving differential equations  
+
+### 📊 Observation
+RK4 produces smoother motion and more accurate energy behavior compared to Euler.
+
+---
+
 ## 🎥 Demo
 
+### Euler Method
 ![Simulation](pendulum_energy.gif)
+
+### RK4 Method
+![RK4 Simulation](pendulum_rk4.gif)
+
+---
+
+## 📊 Results & Observations
+
+- Energy decreases over time due to damping  
+- RK4 maintains better numerical stability than Euler  
+- System eventually comes to rest
 
 ---
 
