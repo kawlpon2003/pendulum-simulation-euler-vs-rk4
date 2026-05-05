@@ -38,7 +38,18 @@ This project implements two methods:
 
 ### Runge-Kutta 4th Order (RK4)
 - Higher accuracy and stability  
-- Better for solving differential equations  
+- Better for solving differential equations
+
+---
+
+## ⚖️ Euler vs RK4 Comparison
+
+| Method | Accuracy | Stability   |
+|--------|----------|-------------|
+| Euler  | Low      | Less stable |
+| RK4    | High     | More stable |
+
+---
 
 ### 📊 Observation
 RK4 produces smoother motion and more accurate energy behavior compared to Euler.
